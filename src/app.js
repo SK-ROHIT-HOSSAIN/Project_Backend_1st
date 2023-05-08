@@ -66,6 +66,9 @@ app.post("/logIn", async(req, res) => {
                 res.send("Invalid credentials");
             }
         }
+        else {
+                res.send("Invalid credentials");
+            }
 
 
     } catch (error) {
